@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Photography Name</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background: #111;
+      color: #fff;
+    }
+
+    header {
+      background: url('your-hero-image.jpg') center/cover no-repeat;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 1rem 2rem;
+      border-radius: 10px;
+    }
+
+    section.gallery {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .gallery h2 {
+      margin-bottom: 30px;
+    }
+
+    .photos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .photos img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    footer {
+      padding: 40px 20px;
+      background: #222;
+      text-align: center;
+    }
+
+    a {
+      color: #66ccff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Your Photography Name</h1>
+  </header>
+
+  <section class="gallery">
+    <h2>My Work</h2>
+    <div class="photos">
+      <img src="photo1.jpg" alt="Photo 1">
+      <img src="photo2.jpg" alt="Photo 2">
+      <img src="photo3.jpg" alt="Photo 3">
+      <!-- Add more photos as needed -->
+    </div>
+  </section>
+
+  <footer>
+    <p>Contact me at <a href="mailto:you@example.com">you@example.com</a></p>
+    <p>&copy; 2025 Your Name</p>
+  </footer>
+
+</body>
+</html>
